@@ -58,7 +58,7 @@ const Contact = () => {
                 <IoIosMail className="text-[28px] text-[#f27121]" /> <p>nivepatle@gmail.com</p>
               </div>
               <div className="contact-detail">
-                <IoLocationOutline className="text-[28px] text-[#f27121]"/> <p>Bhopal, India</p>
+                <IoLocationOutline className="text-[28px] text-[#f27121]"/> <p>Madhya Pradesh, India</p>
               </div>
               <div className="contact-detail">
                 <IoLogoGithub className="text-[28px] mr-4 text-[#f27121]"/>

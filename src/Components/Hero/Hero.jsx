@@ -29,8 +29,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="profile">
-        <img src={SideImg} alt="profile" className="profile-img" />
+      <div className="profile rounded-lg">
+        <img src={SideImg} alt="profile " className="profile-img rounded-lg shadow-lg shadow-stone-800" />
       </div>
     </div>
   );
