@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 // import ProfileImg from "../../assets/profile.png";
-import Video from "../../assets/video.svg";
+
 import SideImg from "../../assets/img4.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { RiContactsLine } from "react-icons/ri";

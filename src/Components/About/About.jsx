@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import Video from "../../assets/video.svg";
 import { GrReactjs } from "react-icons/gr";
 import { IoIosMail, IoLogoCss3 } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -17,7 +16,6 @@ import { SiNextdotjs, SiRedux } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { TbBrandVercel } from "react-icons/tb";
 import { IoLogoJavascript, IoRemoveOutline } from "react-icons/io5";
-import { HiBuildingOffice } from "react-icons/hi2";
 
 const About = () => {
   return (

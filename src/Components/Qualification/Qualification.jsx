@@ -5,7 +5,7 @@ import { IoRemoveOutline } from "react-icons/io5";
 
 const Qualification = () => {
   return (
-    <div id="qualification" className="">
+    <div id="qualification" className=" pb-[29px]">
       <div className="title flex items-center space-x-2">
         <IoRemoveOutline  className="title-icon "/>
         <span className="title-color">&lt;</span><h1 className="px-3">QUALIFICATION</h1> <span className="title-color">/&gt;</span>
