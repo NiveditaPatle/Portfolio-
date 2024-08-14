@@ -11,9 +11,9 @@ const Qualification = () => {
         <span className="title-color">&lt;</span><h1 className="px-3">QUALIFICATION</h1> <span className="title-color">/&gt;</span>
         <IoRemoveOutline className="title-icon"/>
       </div>
-      <div className="flex flex-col md:flex-row justify-between p-6">
+      <div className="flex flex-col  md:flex-row justify-between p-6">
         {/* <!-- Experience Section --> */}
-        <div className="w-full md:w-6/12 p-4 border shadow-lg rounded-lg border-stone-800 bg-stone-900">
+        <div className="w-full mb-5 md:w-6/12 p-4 border shadow-lg rounded-lg border-stone-800 bg-stone-900">
         <div className=" flex items-center text-[26px] mb-4">
             <IoRemoveOutline className=" text-[#8a2387] " />
             <h2>

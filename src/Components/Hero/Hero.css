@@ -75,7 +75,7 @@
     /* background-color: rgb(252, 37, 37); */
     /* background-color: #BA68C8; */
     cursor: pointer;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .hero-resume{
@@ -102,6 +102,7 @@
     
     .hero{
       padding-top: 20px;
+      
     }
 
     .profile{
@@ -109,25 +110,26 @@
     }
 
     .hero-content {
-        width: 100%;
-        padding-right: 10px;
+        width: 90%;
+        /* padding-right: 10px; */
+        padding: 20px;
     }
 
     .hero-content h1 {
-        font-size: 32px;
+        font-size: 39px;
     }
 
     .hero-content p {
-        font-size: 16px;
+        font-size: 18px;
         /* padding-left: 0; */
     }
 
     .hero-action {
         flex-direction: column;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
-    .hero-connect {
+    /* .hero-connect {
         padding: 8px 35px;
         font-size: 17px;
     }
@@ -135,6 +137,6 @@
     .hero-resume {
         padding: 8px 28px;
         font-size: 16px;
-    }
+    } */
    
 }

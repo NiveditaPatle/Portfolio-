@@ -1,9 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import { IoIosMail, IoLogoGithub } from "react-icons/io";
-import { FaMapLocationDot } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoRemoveOutline } from "react-icons/io5";
+import { IoLocationOutline, IoRemoveOutline } from "react-icons/io5";
 import { SiMinutemailer } from "react-icons/si";
 // import ContactImg from '../../assets/contact.png'
 
@@ -34,7 +33,7 @@ const Contact = () => {
 
   return (
     <div id="contact">
-      <div className="contact">
+      <div className="contact px-3">
         <div className="title flex items-center space-x-2">
           <IoRemoveOutline className="title-icon " />
           <span className="title-color">&lt;</span>
@@ -42,28 +41,34 @@ const Contact = () => {
           <span className="title-color">/&gt;</span>
           <IoRemoveOutline className="title-icon" />
         </div>
-        <div className="contact-section">
-          <div className="contact-left">
-            <h1>Let's talk</h1>
-            <p>
+        <div className="contact-section md:flex justify-between flex-wrap">
+
+          {/* contact left */}
+          <div className="contact-left pt-3 w-full md:w-5/12 pb-5">
+            <h1 className=" text-4xl pb-3 font-semibold text-[#8a2387]">
+              Let's talk
+            </h1>
+            <p className="text-[22px] text-[#d8d8d8]">
               I'm currently avaliable to take on new projects, so feel free to
               send me a message about anything that you want me to work on. You
               can contact anytime.
             </p>
-            <div className="contact-details">
+            <div className="contact-details text-[#d8d8d8] pt-6">
               <div className="contact-detail">
-                <IoIosMail /> <p>nivepatle@gmail.com</p>
+                <IoIosMail className="text-[28px] text-[#f27121]" /> <p>nivepatle@gmail.com</p>
               </div>
               <div className="contact-detail">
-                <FaMapLocationDot /> <p>Bhopal, India</p>
+                <IoLocationOutline className="text-[28px] text-[#f27121]"/> <p>Bhopal, India</p>
               </div>
               <div className="contact-detail">
-                <IoLogoGithub />
-                <FaLinkedin />
+                <IoLogoGithub className="text-[28px] mr-4 text-[#f27121]"/>
+                <FaLinkedin className="text-[28px] text-[#f27121]"/>
               </div>
             </div>
           </div>
-          <form onSubmit={onSubmit} className="contact-right">
+
+          {/* contact right side */}
+          <form onSubmit={onSubmit} className="contact-right w-full md:w-6/12">
             <label htmlFor="">Your Name</label>
             <input type="text" placeholder="Enter your name" name="name" />
             <label htmlFor="">Your Email</label>
@@ -74,9 +79,12 @@ const Contact = () => {
               rows="8"
               placeholder="Enter your message"
             />
-            <button type="submit" className="contact-submit flex bg-custom-gradient items-center">
+            <button
+              type="submit"
+              className="contact-submit flex bg-custom-gradient items-center"
+            >
               SEND MESSAGE
-              <SiMinutemailer className="text-[19px] ml-2"/>
+              <SiMinutemailer className="text-[19px] ml-2" />
             </button>
           </form>
         </div>
