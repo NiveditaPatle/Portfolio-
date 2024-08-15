@@ -44,7 +44,7 @@ const Contact = () => {
         <div className="contact-section md:flex justify-between flex-wrap">
 
           {/* contact left */}
-          <div className="contact-left pt-3 w-full md:w-5/12 pb-5">
+          <div className="contact-left pt-3 w-full md:w-5/12 pb-7">
             <h1 className=" text-4xl pb-3 font-semibold text-[#8a2387]">
               Let's talk
             </h1>

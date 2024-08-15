@@ -1,7 +1,5 @@
 import React from "react";
 import "./Hero.css";
-// import ProfileImg from "../../assets/profile.png";
-
 import SideImg from "../../assets/img4.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { RiContactsLine } from "react-icons/ri";
@@ -24,8 +22,10 @@ const Hero = () => {
             </AnchorLink>
             <RiContactsLine className="text-[19px] ml-2" />
           </div>
-          <div className="hero-resume flex">
+          <div className="hero-resume ">
+              <a href="/Nivedita_Patle_Resume.pdf"  target="_blank" rel="noopener noreferrer" className="flex">
               GET RESUME <IoMdDownload className="text-[19px] ml-2" />
+              </a>
           </div>
         </div>
       </div>
