@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { GrReactjs } from "react-icons/gr";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { IoIosMail, IoLogoCss3 } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
 import {
@@ -45,7 +46,9 @@ const About = () => {
           </div>
 
           <button className="flex bg-custom-gradient py-[10px] px-[25px] text-white text-[15px] rounded-md items-center transition-all duration-300 hover:bg-opacity-80 hover:scale-105 ">
-            CONTACT
+          <AnchorLink offset={50} href="#contact">
+              CONTACT ME
+            </AnchorLink>
             <IoIosMail className="text-[19px] ml-2" />
           </button>
         </div>

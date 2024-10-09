@@ -31,7 +31,7 @@ const Qualification = () => {
                 <div className="flex justify-between">
                   <h3 className="text-lg text-gray-300">Frontend Developer</h3>
                   <span className="text-gray-400 text-sm">
-                    May 2024 - Present
+                    June 2024 - Present
                   </span>
                 </div>
                 <p className="text-gray-400">Freelancer</p>
@@ -48,7 +48,7 @@ const Qualification = () => {
                     Feb 2023 - May 2024
                   </span>
                 </div>
-                <p className="text-gray-400">TMMS Solutions Private Limited</p>
+                <p className="text-gray-400">Win Upskill</p>
               </div>
             </div>
             <div className="flex items-start space-x-4 p-4 rounded-lg shadow-lg">

@@ -23,7 +23,7 @@ const Hero = () => {
             <RiContactsLine className="text-[19px] ml-2" />
           </div>
           <div className="hero-resume ">
-              <a href="/Nivedita_Patle_Resume.pdf"  target="_blank" rel="noopener noreferrer" className="flex">
+              <a href="/Nivedita_Patle_Resume_2024.pdf"  target="_blank" rel="noopener noreferrer" className="flex">
               GET RESUME <IoMdDownload className="text-[19px] ml-2" />
               </a>
           </div>
