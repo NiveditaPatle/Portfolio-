@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="hero" id="home">
       <div className="hero-content">
         <h1>
-          <span>I'm Nivedita Patle,</span> Software Developer 
+          <span>I'm Nivedita Patle,</span> FullStack Developer 
         </h1>
         <p>
         Building Comprehensive Web Solutions with a Focus on Excellence at Every Stage, From Design and Development to Deployment and Optimization, Ensuring a Smooth and Effective Digital Presence.
@@ -23,7 +23,7 @@ const Hero = () => {
             <RiContactsLine className="text-[19px] ml-2" />
           </div>
           <div className="hero-resume ">
-              <a href="/Nivedita_Patle_Resume_2024.pdf"  target="_blank" rel="noopener noreferrer" className="flex">
+              <a href="/Nivedita_Patle_9009849191.pdf"  target="_blank" rel="noopener noreferrer" className="flex">
               GET RESUME <IoMdDownload className="text-[19px] ml-2" />
               </a>
           </div>

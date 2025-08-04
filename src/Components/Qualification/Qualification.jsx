@@ -45,7 +45,7 @@ const Qualification = () => {
                     Web Developer Executive
                   </h3>
                   <span className="text-gray-400 text-sm">
-                    Feb 2023 - May 2024
+                    Sept 2022 - May 2024
                   </span>
                 </div>
                 <p className="text-gray-400">Win Upskill</p>
@@ -57,7 +57,7 @@ const Qualification = () => {
                 <div className="flex justify-between">
                   <h3 className="text-lg text-gray-300">Frontend Developer</h3>
                   <span className="text-gray-400 text-sm">
-                    May 2021 - Dec 2022
+                    May 2021 - Aug 2022
                   </span>
                 </div>
                 <p className="text-gray-400">Get Ahead Express</p>
