@@ -91,7 +91,7 @@ const Contact = () => {
       </div>
       <hr className="text-[#d8d8d8] border-[1px]" />
       <div className="flex justify-between text-[15px] py-4">
-        <p>© 2024 Nivedita Patle. All rights reserved.</p>
+        <p>© 2025 Nivedita Patle. All rights reserved.</p>
         <div className="flex ">
           <p className="pr-6">Term Of Services</p>
           <p className="pr-6">Privacy Policy</p>
